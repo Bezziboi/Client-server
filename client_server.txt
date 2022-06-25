@@ -87,3 +87,5 @@ Client_Server
 		      6) Presentation layer
 		      7) Application layer
  16) http request headers
+	An HTTP request header is a component of a network packet sent by a browser or client to the server to request for a specific page or data on the Web server.
+	It is used in Web communications or Internet browsing to transport user requests to the corresponding website's Web server.
