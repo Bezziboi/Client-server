@@ -68,7 +68,22 @@ Client_Server
  13) What is IP
 	An Internet Protocol address is a numerical label that is connected to a computer network that uses the Internet Protocol for communication.
 	An IP address serves two main functions: network interface identification and location addressing.
- 14) What are Octates in DNS
- 15) What is a port, how many ports does a Linux server have
- 16) OSI layers
- 17) http request headers
+
+ 14) What is a port, how many ports does a Linux server have
+	The port numbers are divided into three ranges: Well Known Ports: those from 0 through 1023.
+	Registered Ports: those from 1024 through 49151.
+	Dynamic and/or Private Ports: those from 49152 through 65535.
+	Linux server has 65536 ports.
+
+ 15) OSI layers
+	7 levels that can be divided into 2 groups
+		Media Layers
+		      1) Physical layer
+		      2) Data link layer
+		      3) Network layer
+		Host layers
+		      4) Transport layer
+		      5) Session layer
+		      6) Presentation layer
+		      7) Application layer
+ 16) http request headers
