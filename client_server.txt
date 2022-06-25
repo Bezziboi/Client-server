@@ -1,17 +1,73 @@
 Client_Server
  1) Read about client-server architecture
+	Client Server Architecture is a computing model in which the server hosts,
+	delivers and manages most of the resources and services to be consumed by the client.
+	This type of architecture has one or more client computers connected to a central server over a network or internet connection.
+ 
  2) What is HTTP and HTTPS
+	HTTP stands for Hyper Text Transfer Protocol.
+	The Hypertext Transfer Protocol is an application layer protocol in the Internet protocol suite model for 
+	distributed, collaborative, hypermedia information systems.
+
  3) HTTP methods
+	The primary or most commonly-used HTTP methods are POST, GET, PUT, PATCH, and DELETE.
+	These methods correspond to create, read, update, and delete (or CRUD) operations, respectively.
+	There are a number of other methods, too, but they are utilized less frequently.
+	
  4) HTTP status codes of the server
+	An HTTP status code is a server response to a browser's request. 
+	When you visit a website, your browser sends a request to the site's server,
+	and the server then responds to the browser's request with a three-digit code: the HTTP status code.
+	HTTP response status codes:
+		Informational responses ( 100 – 199 )
+		Successful responses ( 200 – 299 )
+		Redirection messages ( 300 – 399 )
+		Client error responses ( 400 – 499 )
+		Server error responses ( 500 – 599 )
+	
  5) What is the browser core
+	A browser engine (also known as a layout engine or rendering engine) is a core software component of every major web browser.
+	The primary job of a browser engine is to transform HTML documents and other resources of a web page into an interactive visual representation on a user's device.
+ 
  6) Which browsers use which kernels
+	Blink – Used in Google Chrome, and Opera browsers.
+	WebKit – Used in Safari browsers.
+	Gecko – Used in Mozilla Firefox browsers.
+	Trident – Used in Internet Explorer browsers.
+	EdgeHTML – Used in Edge browsers.
+	Presto – Legacy rendering engine for Opera.
+	
  7) What is API
+	An application programming interface is a connection between computers or between computer programs.
+	It is a type of software interface, offering a service to other pieces of software.
+	A document or standard that describes how to build or use such a connection or interface is called an API specification.
+
  8) What are endpoints
+	A communication endpoint is a type of communication network node. It is an interface exposed by a communicating party or by a communication channel.
+	An example of the latter type of a communication endpoint is a publish-subscribe topic or a group in group communication systems.
+
  9) URL (URI, URL, URN)
+	URI (uniform resource identifier) identifies a resource (text document, image file, etc).
+	URL (uniform resource locator) is a subset of the URIs that include a network location.
+	URN (uniform resource name) is a subset of URIs that include a name within a given space, but no location.
+
  10) Idempotent HTTP Methods
+	An HTTP method is idempotent if an identical request can be made once or several times in a row with the same effect while leaving the server in the same state.
+	In other words, an idempotent method should not have any side-effects (except for keeping statistics).
+
  11) Secure HTTP Methods
+	Several common HTTP methods are safe: GET , HEAD , or OPTIONS . All safe methods are also idempotent, but not all idempotent methods are safe.
+	For example, PUT and DELETE are both idempotent but unsafe.
+	Even if safe methods have a read-only semantic, servers can alter their state: e.g. they can log or keep statistics.	
+
  12) Identification, Authentication, Authorization
+	Identification is the claim of a subject of its identity.
+	Authentication is the proof of identity that is achieved through providing credentials to the access control mechanism.
+	Authorization is the mechanism that determines the access level(s) of the subjects to the objects
+
  13) What is IP
+	An Internet Protocol address is a numerical label that is connected to a computer network that uses the Internet Protocol for communication.
+	An IP address serves two main functions: network interface identification and location addressing.
  14) What are Octates in DNS
  15) What is a port, how many ports does a Linux server have
  16) OSI layers
